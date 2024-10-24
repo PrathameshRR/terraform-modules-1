@@ -114,7 +114,7 @@ terraform apply -var="vpc_cidr=172.16.0.0/16" -var="instance_type=t3.micro"
 ## Cleanup
 
 To remove all created resources:
-    ```
+```
 terraform destroy
 ```
 
